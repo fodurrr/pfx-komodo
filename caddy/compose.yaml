@@ -6,9 +6,9 @@ services:
     cap_add:
       - NET_ADMIN
     ports:
-      - "80:80"
-      - "443:443"
-      - "443:443/udp"
+      - "9080:80"
+      - "9443:443"
+      - "9443:443/udp"
     volumes:
       - $PWD/conf:/etc/caddy
       - $PWD/site:/srv
