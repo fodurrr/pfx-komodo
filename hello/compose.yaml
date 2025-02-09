@@ -3,7 +3,7 @@ services:
   hello-world:
     image: hello-world  # The official Hello World image
     ports:
-      - "8080:80"  # Map port 8080 on the host to port 80 in the container (optional)
+      - "9080:80"  # Map port 8080 on the host to port 80 in the container (optional)
     # If you want to rebuild the image, you can add a build context
     # build:
     #   context: ./path/to/your/dockerfile/directory
